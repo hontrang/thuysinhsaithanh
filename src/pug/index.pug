@@ -5,7 +5,7 @@ html(lang='en')
 
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
+        meta(name='description' content='Khám phá sự đa dạng của sản phẩm hồ cá cảnh thủy sinh từ các thương hiệu hàng đầu như Gex, Senda, ADA, và Smekong. Tìm mọi thứ bạn cần cho hồ cá thủy sinh hoàn hảo tại cửa hàng của chúng tôi.')
         meta(name='author', content='')
 
         title Thủy sinh Sài Thành
@@ -24,50 +24,34 @@ html(lang='en')
         // Navigation
         nav.navbar.navbar-expand-lg.navbar-light.bg-light
             .container.px-4.px-lg-5
-                a.navbar-brand(href='#!')
+                a.navbar-brand(href='https://www.thuysinhsaithanh.com')
                     img(src='assets/logo.png', alt='Thủy sinh Sài Thành')
                 button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
                     span.navbar-toggler-icon
                 #navbarSupportedContent.collapse.navbar-collapse
                     ul.navbar-nav.me-auto.mb-2.mb-lg-0.ms-lg-4
                         li.nav-item
-                            a.nav-link.active(aria-current='page' href='#!') Home
+                            a.nav-link.active(aria-current='page' href='#!') Trang Chủ
                         li.nav-item
-                            a.nav-link(href='#!') About
+                            a.nav-link(href='#!') Giới thiệu
                         li.nav-item.dropdown
                             a#navbarDropdown.nav-link.dropdown-toggle(href='#' role='button' data-bs-toggle='dropdown' aria-expanded='false')
-                                | Shop
+                                | Cửa Hàng
                             ul.dropdown-menu(aria-labelledby='navbarDropdown')
                                 li
-                                    a.dropdown-item(href='#!') All Products
-                                li
-                                    hr.dropdown-divider
-                                li
-                                    a.dropdown-item(href='#!') Popular Items
-                                li
-                                    a.dropdown-item(href='#!') New Arrivals
-                    //- form.d-flex
-                    //-     button.btn.btn-outline-dark(type='submit')
-                    //-         i.bi-cart-fill.me-1
-                    //-         | Cart
-                    //-         span.badge.bg-dark.text-white.ms-1.rounded-pill 0
+                                    a.dropdown-item(href='#!') Tất cả sản phẩm
 
-        // Header
-        //- header.bg-dark.py-5
-        //-     .container.px-4.px-lg-5.my-5
-        //-         .text-center.text-white
-        //-             h1.display-4.fw-bolder Thủy sinh Sài Thành
-        //-             p.lead.fw-normal.text-white-50.mb-0 Chúng tôi cung cấp phân nền thủy sinh sỉ và lẻ
-        header.bg-dark.py-5(style='background-image: url("assets/banner/banner-bg.jpeg"); background-size: cover; background-position: center;')
-             .container.px-4.px-lg-5.my-5
-                .text-center.text-white
-                    h1.display-4.fw-bolder Thủy sinh Sài Thành
-                    p.lead.fw-normal.text-white-50.mb-0 Chúng tôi cung cấp phân nền thủy sinh sỉ và lẻ
+        header.bg-dark.py-5(style='background-image: url("assets/banner/banner-bg.jpeg"); background-size: cover; background-position: center; height: 800px')
 
         // Section
         section.py-5
+            .container.px-4.px-lg-5.my-5
+                .text-center.text-black
+                    h1.display-4.fw-bolder Trồng cây nuôi cá, hãy nhớ đến Thủy Sinh Sài Thành
+                    p.lead.fw-normal.text-white-50.mb-0 Chúng tôi cung cấp phân nền thủy sinh sỉ và lẻ
             .container.px-4.px-lg-5.mt-5
-                .row.gx-4.gx-lg-5.row-cols-2.row-cols-md-3.row-cols-xl-4.justify-content-center
+            
+                //- .row.gx-4.gx-lg-5.row-cols-2.row-cols-md-3.row-cols-xl-4.justify-content-center
                     .col.mb-5
                         .card.h-100
                             // Product image
@@ -366,9 +350,6 @@ html(lang='en')
                     //-                 a.btn.btn-outline-dark.mt-auto(href='#') Add to cart
 
         // Footer
-        //- footer.py-5.bg-dark
-        //-     .container
-        //-         p.m-0.text-center.text-white Copyright &copy; Your Website 2023
         footer.py-5.bg-dark
             .container
                 .row
@@ -379,7 +360,8 @@ html(lang='en')
                             br
                             | Số điện thoại: 0961443019
                             br
-                            | FB: https://www.facebook.com/saithanhaquarium
+                            | FB:
+                            a(href="https://www.facebook.com/saithanhaquarium") https://www.facebook.com/saithanhaquarium
                     .col-md-6.text-md-end
                         p.text-white &copy; Copyright 2023.
 
