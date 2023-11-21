@@ -19,6 +19,41 @@
     <!-- Core theme CSS (includes Bootstrap)-->
     <link href="css/mdb.min.css" rel="stylesheet" />
     <link href="css/styles.css" rel="stylesheet" />
+    <style>
+        .banner {
+            background: url('assets/banner/banner-bg.jpeg') center center / cover no-repeat;
+            height: 400px;
+        }
+
+        .no-padding {
+            padding: 0 !important;
+            margin: 0 !important;
+        }
+
+        @media (min-width: 280px) {
+            .banner {
+                height: 23vh;
+            }
+        }
+
+        @media (min-width: 375px) {
+            .banner {
+                height: 30vh;
+            }
+        }
+
+        @media (min-width: 768px) {
+            .banner {
+                height: 35vh;
+            }
+        }
+
+        @media (min-width: 992px) {
+            .banner {
+                height: 200vh;
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -45,9 +80,11 @@
             </div>
         </div>
     </nav>
-    <header class="bg-dark py-5"
-        style="background-image: url('assets/banner/banner-bg.jpeg'); background-size: cover; background-position: center; height: 800px">
-    </header>
+    <div class="container-fluid no-padding">
+        <header class="banner">
+            <!-- Nội dung banner ở đây -->
+        </header>
+    </div>
     <!-- Section-->
     <section class="py-5">
         <div class="container px-4 px-lg-5 mt-5">
