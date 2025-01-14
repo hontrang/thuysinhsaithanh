@@ -1,0 +1,7 @@
+AuthName "diaocantin.anlink.top statistics"
+AuthType Basic
+AuthUserFile /home/diaocantin/.stats-htpasswd
+require valid-user
+<Files .stats-htpasswd>
+deny from all
+</Files>
